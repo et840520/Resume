@@ -1,6 +1,6 @@
 # 王韋傑
 
-> Backend / Cloud / DevOps / Platform Engineer  
+> Backend / Cloud / DevOps / Platform Engineer / AI-assisted
 > 專注於企業系統整合、雲端架構、可維運性與交付效率
 
 歡迎來到我的個人網站。  
@@ -45,7 +45,7 @@
 
 我在近期專案中導入 AI 協作開發，將需求到交付流程標準化：
 
-- 以 Spec-driven 流程（spec / plan / tasks）先對齊需求與驗收標準
+- 以 Spec-driven 流程（spec / plan / tasks / implement）先對齊需求與驗收標準
 - 用 AI 協助需求拆解、程式碼草稿、文件整理與 code review
 - 將設計決策、API 規格與實作結果回寫知識庫(Spec)，形成可追溯脈絡
 - 降低溝通成本與返工風險，提升交付一致性
@@ -62,5 +62,5 @@
 ## Career Links
 
 - LinkedIn: [請填入你的 LinkedIn]
-- GitHub: [請填入你的 GitHub]
+- GitHub: https://github.com/et840520
 - Email: [請填入你的 Email]
