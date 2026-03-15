@@ -54,7 +54,7 @@
 
 - AI pair programming / code generation
 - Prompt design for engineering tasks
-- Spec-driven workflow (spec / plan / tasks)
+- Spec-driven workflow (spec / plan / tasks/ implement)
 - AI-assisted code review and documentation
 - Knowledge base and workflow integration
 
