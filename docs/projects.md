@@ -15,6 +15,8 @@
 
 ### Tech Stack
 
+- Azure 
+- Azure DevOps
 - Java / Spring Boot
 - MSSQL
 - Keycloak
@@ -51,6 +53,8 @@
 
 ### Tech Stack
 
+- Azure 
+- Azure DevOps
 - Kubernetes
 - Helm
 - Istio
@@ -79,6 +83,8 @@
 將 AI 工具、文件規格、知識整理與開發流程結合，提升需求分析、設計與實作效率。
 近期專案實務上採用 GitHub Spec-Kit 的 SDD（Spec-Driven Development）流程，
 以 spec -> plan -> tasks 的結構，先對齊需求與驗收標準，再進入開發與驗證。
+在 API 開發與前端對接過程中，針對溝通落差設計 `ui-contract.md` 規格格式，
+並透過 Azure Pipeline 自動部署至 Kubernetes，提供前端可即時瀏覽的契約文件。
 
 ### My Role
 
@@ -89,6 +95,8 @@
 
 ### Tech Stack
 
+- Azure 
+- Azure DevOps
 - Markdown
 - MkDocs
 - GitHub Copilot
@@ -100,12 +108,16 @@
 - 建立可複用文件模板
 - 導入 GitHub Spec-Kit SDD 流程（spec / plan / tasks）
 - 將需求、設計、實作、驗收條件串成同一條可追溯鏈
+- 設計 `ui-contract.md`（Route / API / Field Semantics / Error Mapping / Sequence）
+- 建立範例文件：[UI Contract - Create Order](ui-contract-order-create.md)
+- 將契約文件納入 Azure Pipeline，自動發佈至 K8s 供前端查閱
 - 降低團隊對需求與架構理解落差
 - 讓 AI 協作更貼近工程交付流程
 
 ### Outcome
 
 - 提升規格整理效率
+- 降低前後端 API 對接溝通成本
 - 降低需求誤解與返工機率
 - 改善設計文件可讀性
 - 強化工程知識沉澱

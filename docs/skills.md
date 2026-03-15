@@ -2,15 +2,13 @@
 
 ## Backend
 
-- Java
-- Spring Boot
-- Spring Cloud
-- Python
-- FastAPI
-- Go
+- Java / Spring Boot
+- Python / FastAPI
+- .Net (.Net framework 4.5)
 
 ## Cloud / Platform
 
+- Azure
 - Docker
 - Kubernetes
 - Helm
@@ -32,7 +30,7 @@
 - Microsoft SQL Server
 - PostgreSQL
 - Redis
-- Kafka
+- MySql
 
 ## Security / IAM
 
@@ -51,6 +49,14 @@
 - OpenAPI
 - Architecture Diagram
 - Technical Proposal / Delivery Document
+
+## AI-assisted Development
+
+- AI pair programming / code generation
+- Prompt design for engineering tasks
+- Spec-driven workflow (spec / plan / tasks)
+- AI-assisted code review and documentation
+- Knowledge base and workflow integration
 
 ## Engineering Strengths
 

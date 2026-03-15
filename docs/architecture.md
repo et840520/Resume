@@ -21,7 +21,7 @@
 - CI/CD 與部署標準化
 - 可維運性與文件化
 
-## Example: System Layering
+## System Layering
 
 ```mermaid
 flowchart TD
@@ -34,7 +34,7 @@ flowchart TD
     API2 --> DB2[(Redis / DB)]
 ```
 
-## Example: Delivery Flow
+## Delivery Flow
 
 ```mermaid
 flowchart LR
@@ -45,7 +45,7 @@ flowchart LR
     DEPLOY --> MONITOR[Monitor / Operate]
 ```
 
-## Example: Access Control Thinking
+## Access Control Thinking
 
 ```mermaid
 flowchart TD
