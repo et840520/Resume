@@ -22,6 +22,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
@@ -33,7 +36,7 @@ jobs:
           pip install mkdocs mkdocs-material pymdown-extensions
 
       - name: Build site
-        run: mkdocs build --strict
+        run: mkdocs build --strict -f mkdocs.yaml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
