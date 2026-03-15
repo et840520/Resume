@@ -138,7 +138,7 @@ flowchart LR
 - 將需求、設計、實作、驗收條件串成同一條可追溯鏈
 - 設計 `ui-contract.md`（Route / API / Field Semantics / Error Mapping / Sequence）
 - 將 `ui-contract.md` 封裝成 agent skill，提供團隊一致格式與撰寫方式
-- 建立範例文件：[UI Contract - Create Order](ui-contract-order-create.md)
+- ui-contract範例文件：[UI Contract - Create Order](ui-contract-order-create.md)
 - 將 GitHub Copilot 透過 MCP 串接開發機 K8s 與 Azure SQL，提升 SDD 開發程式碼正確性
 - 將ui-contract文件納入 Azure Pipeline，自動發佈至 K8s 供前端查閱
 - 降低團隊對需求與架構理解落差
