@@ -15,10 +15,18 @@ markdown_extensions:
   - tables
   - toc:
       permalink: true
-  - pymdownx.superfences
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight
   - pymdownx.inlinehilite
   - pymdownx.details
+
+extra_javascript:
+  - https://unpkg.com/mermaid@11/dist/mermaid.min.js
+  - javascripts/mermaid-init.js
 
 nav:
   - Home: index.md
