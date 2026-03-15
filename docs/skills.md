@@ -4,7 +4,7 @@
 
 - Java / Spring Boot
 - Python / FastAPI
-- .Net (.Net framework 4.5)
+- .Net / .Net framework 4.5
 
 ## Cloud / Platform
 
@@ -30,7 +30,6 @@
 - Microsoft SQL Server
 - PostgreSQL
 - Redis
-- MySql
 
 ## Security / IAM
 
