@@ -1,0 +1,30 @@
+site_name: My Resume
+site_description: Personal profile and engineering portfolio
+site_author: Jay Wang
+
+theme:
+  name: material
+  language: zh-TW
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.details
+
+nav:
+  - Home: index.md
+  - About: about.md
+  - Skills: skills.md
+  - Projects: projects.md
+  - Architecture: architecture.md
+  - Notes: notes.md
+  - Contact: contact.md
