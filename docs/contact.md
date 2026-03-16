@@ -5,7 +5,7 @@
 ## Links
 
 - LinkedIn: [請填入你的 LinkedIn]
-- GitHub: https://github.com/et840520
+- GitHub: [https://github.com/et840520]
 - Email: [請填入你的 Email]
 
 ## What You Can Find Here
