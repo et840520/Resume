@@ -41,6 +41,13 @@
 - 規劃 API、資料流、權限控管與部署流程
 - 將 AI / 文件 / 知識庫導入工程開發流程
 
+## Resume Snapshot
+
+- 現任遠傳電信專業工程師，負責企業核心模組設計、微服務導入與交付流程優化
+- 具備權限平台、雲端原生部署平台、電子發票平台與 AI-assisted Engineering Workflow 實務經驗
+- 擅長將需求分析、系統設計、程式開發、品質檢查與部署流程串成可重複落地的工程機制
+- 完整履歷可見：[Resume](resume.md)
+
 ## AI 開發流程整合
 
 我在近期專案中導入 AI 協作開發，將需求到交付流程標準化：
@@ -53,6 +60,7 @@
 ## Explore
 
 - [About Me](about.md)
+- [Resume](resume.md)
 - [Skills](skills.md)
 - [Projects](projects.md)
 - [Architecture](architecture.md)

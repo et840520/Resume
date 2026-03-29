@@ -1,6 +1,6 @@
 # Projects
 
-## Project A - Enterprise Permission Platform
+## Enterprise Permission Platform
 
 ### Overview
 
@@ -37,7 +37,50 @@
 
 ---
 
-## Project B - Cloud Native Deployment Platform
+## eInvoice Platform
+
+### Overview
+
+於遠傳電信擔任專業工程師期間，參與電子發票平台的分析、設計與開發。
+專案中以 Spring Boot 與 Spring Security OAuth2 開發權限模組，並使用 Redis 儲存認證 Token；
+同時撰寫 Docker Compose，協助開發團隊快速建立本機開發所需容器環境。
+另外擔任發票模組 Owner，負責訪談與分析客戶需求，完成系統分析與設計文件，
+並以 SD、PG 角色導入微服務架構，與團隊共同完成發票服務開發。
+
+### My Role
+
+- 使用 Spring Boot、Spring Security OAuth2 開發權限模組
+- 使用 Redis 儲存與管理認證 Token
+- 撰寫 Docker Compose，協助團隊快速建立開發環境
+- 擔任發票模組 Owner，進行需求訪談、分析與設計文件整理
+- 擔任 SD、PG，導入微服務並與團隊共同完成發票服務
+
+### Tech Stack
+
+- Java / Spring Boot
+- Spring Security OAuth2
+- Redis
+- Docker
+- Microservices
+- MSSQL
+
+### Key Contributions
+
+- 建立發票平台的權限模組與認證流程
+- 將認證 Token 儲存機制整合至 Redis，提升驗證流程一致性
+- 撰寫 Docker Compose，降低開發環境建置與服務啟動成本
+- 主導發票模組需求訪談、系統分析與設計文件產出
+- 導入微服務拆分方式，與開發團隊共同完成發票服務實作
+
+### Outcome
+
+- 完成發票模組從需求訪談、系統設計到服務開發的端到端交付
+- 提升團隊本機開發環境建立效率，降低新成員接手與協作成本
+- 建立發票服務與權限模組的分工基礎，讓後續功能擴充更容易落地
+
+---
+
+## Cloud Native Deployment Platform
 
 ### Overview
 
@@ -98,7 +141,7 @@ flowchart LR
 
 ---
 
-## Project C - AI-assisted Engineering Workflow
+## AI-assisted Engineering Workflow
 
 ### Overview
 
@@ -161,3 +204,4 @@ flowchart LR
 - 文件查找與理解時間由 1-2 小時降至 10 分鐘
 - 文件與ai skills覆蓋 6 個功能模組，提升知識重用率
 - 將品質檢查前移到開發階段，降低 PR 反覆修正與合併前阻塞的機率
+- 降低程式碼弱點掃描次數，來回修正次數由2-3次降低至１次
