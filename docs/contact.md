@@ -4,7 +4,6 @@
 
 ## Links
 
-- LinkedIn: [請填入你的 LinkedIn]
 - GitHub: [et840520](https://github.com/et840520)
 - Email:  [et840520@gmail.com]
 
