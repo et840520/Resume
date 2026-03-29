@@ -6,7 +6,7 @@
 
 - LinkedIn: [請填入你的 LinkedIn]
 - GitHub: [et840520](https://github.com/et840520)
-- Email: [請填入你的 Email]
+- Email:  [et840520@gmail.com]
 
 ## What You Can Find Here
 

@@ -110,6 +110,9 @@ flowchart LR
 同時將 `ui-contract.md` 的撰寫流程封裝成 agent skill，供團隊以一致格式產出與維護文件。
 另外將 GitHub Copilot 透過 MCP 串接開發機的 Kubernetes 與 Azure SQL，
 讓 SDD 開發過程能直接參考實際環境資訊，提升產出程式碼與規格對齊的正確性。
+此外，主動提出將程式碼品質檢測左移到 PR 前階段，
+建立本地先行的品質分析流程並與 Azure Pipeline 對齊，
+將 Ruff lint、MyPy 型別檢查、Bandit 安全檢查、Black 格式檢查、Radon 複雜度分析、Pytest 單元測試與覆蓋率檢查整合成一致的工程品質閘門。
 
 ### My Role
 
@@ -117,13 +120,16 @@ flowchart LR
 - 整理開發文件模板
 - 設計 AI 協作所需的 prompt / instructions / skills 結構
 - 驗證不同工具在實務上的可行性
+- 主動提出 PR 前品質檢查機制，降低問題延後到 CI 或部署階段才被發現的風險
+- 規劃本地檢查流程與 Azure Pipeline 的一致性，避免開發端與 CI 規則落差
 
 ### Tech Stack
 
 - Azure 
 - Azure DevOps
+- Azure Pipeline
 - Markdown
-- MkDocs
+- MkDocs / FastAPI
 - GitHub Copilot
 - MCP
 - Kubernetes
@@ -141,6 +147,9 @@ flowchart LR
 - ui-contract範例文件：[UI Contract - Create Order](ui-contract-order-create.md)
 - 將 GitHub Copilot 透過 MCP 串接開發機 K8s 與 Azure SQL，提升 SDD 開發程式碼正確性
 - 將ui-contract文件納入 Azure Pipeline，自動發佈至 K8s 供前端查閱
+- 主動提出在 PR 前先執行品質分析腳本，讓開發者不需等到 push 後才發現 lint、型別、格式、安全或測試問題
+- 建立 Azure Pipeline 進行 Ruff、MyPy、Bandit、Black、Radon 與 Pytest + Coverage 的程式碼品質分析與單元測試
+- 將本地品質分析腳本與 CI pipeline 對齊，確保本地驗證結果與 PR 檢查標準一致
 - 降低團隊對需求與架構理解落差
 - 讓 AI 協作更貼近工程交付流程
 
@@ -151,3 +160,4 @@ flowchart LR
 - 因需求理解落差造成的返工比例由 25% 降至 10%
 - 文件查找與理解時間由 1-2 小時降至 10 分鐘
 - 文件與ai skills覆蓋 6 個功能模組，提升知識重用率
+- 將品質檢查前移到開發階段，降低 PR 反覆修正與合併前阻塞的機率
