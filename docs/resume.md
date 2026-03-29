@@ -25,7 +25,7 @@
     * 導入 GitHub Spec-Kit SDD 流程，結合 `spec -> plan -> tasks` 將需求、設計與驗收條件串接，規格文件產出時間由 4 小時大幅降至 30 分鐘（下降 88%）。
     * 設計 `ui-contract.md` API 契約格式並納入自動化發佈流程，單一功能前後端對接會議由 3 次降至 1-2 次，因理解落差造成的返工率從 25% 降至 10%。
     * 運用 GitHub Copilot 搭配 MCP 串接開發機 Kubernetes 與 Azure SQL，提升 AI 生成程式碼與實際環境規格的一致性。
-    * 推動程式碼品質檢測左移，將 Ruff、MyPy、Bandit、Black 等工具整合至本地端與 Azure Pipeline，降低 PR 反覆修正次數與資安弱點掃描風險。
+    * 推動程式碼品質檢測，將 Ruff、MyPy、Bandit、Black 等工具整合至本地端與 Azure Pipeline，降低 PR 反覆修正次數與資安弱點掃描風險。
 * **企業級權限管理平台 (Enterprise Permission Platform)**
     * 主導後端架構與權限模型設計，整合 Keycloak 與 SSO 登入流程。
     * 設計 API 權限映射機制與跨系統授權規則，覆蓋 100+ 支 API，使新功能接入權限系統的時間由 5 天縮短至 1 天（下降 80%）。
