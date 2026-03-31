@@ -43,6 +43,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Resume: resume.md
+  - Resume (EN): resume-en.md
   - Skills: skills.md
   - Projects: projects.md
   - Architecture: architecture.md

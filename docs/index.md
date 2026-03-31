@@ -61,6 +61,7 @@
 
 - [About Me](about.md)
 - [Resume](resume.md)
+- [Resume (EN)](resume-en.md)
 - [Skills](skills.md)
 - [Projects](projects.md)
 - [Architecture](architecture.md)
@@ -69,6 +70,6 @@
 
 ## Career Links
 
-- LinkedIn: [請填入你的 LinkedIn]
 - GitHub: [et840520](https://github.com/et840520)
-- Email: [請填入你的 Email]
+- Email:  et840520@gmail.com
+- LinkedIn: [wei chieh w.](https://www.linkedin.com/in/wei-chieh-wang-9430a93bb)

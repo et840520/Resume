@@ -5,7 +5,8 @@
 ## Links
 
 - GitHub: [et840520](https://github.com/et840520)
-- Email:  [et840520@gmail.com]
+- Email:  et840520@gmail.com
+- LinkedIn: [wei chieh w.](https://www.linkedin.com/in/wei-chieh-wang-9430a93bb)
 
 ## What You Can Find Here
 
