@@ -75,7 +75,7 @@ Worked on internal enterprise systems, CRM implementation, and cross-team API in
 
 ---
 
-## 🎓 Education
+## Education
 
 ### **Ming Chuan University**
 *Bachelor of Science in Information Management*
