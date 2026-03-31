@@ -1,6 +1,8 @@
 # 王韋傑 (Jay Wang)
 **Software Engineer / Cloud Native Architecture / Platform Engineering**
 
+個人網站: [https://et840520.github.io/Resume/](https://et840520.github.io/Resume/)
+
 擅長後端系統設計、微服務架構、DevOps 與雲端平台整合。具備從需求釐清、架構分層到落地實作的端到端交付能力。近期專注於將 AI 工具與 Spec-Driven Development (SDD) 導入工程流程，透過標準化文件與自動化 pipeline 提升團隊協作效率與程式碼品質。
 
 ## 🛠 Core Skills
@@ -51,3 +53,10 @@
 * **開發環境與效能優化**
     * 使用 Windows Form 開發生產力工具，並透過 Stored Procedure 優化資料庫查詢，分離程式與資料邏輯層，提升整體執行效率。
     * 擔任 Infra 角色，運用 Virtualbox 與 Docker 統一開發環境，降低團隊因環境差異導致的開發阻礙。
+
+---
+
+## 🎓 Education
+
+### **銘傳大學 (Ming Chuan University)**
+*Bachelor of Science in Information Management（資訊管理學系）*

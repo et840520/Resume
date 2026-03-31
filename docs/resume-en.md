@@ -1,6 +1,8 @@
 # Jay Wang
 **Software Engineer | Backend Engineering | Cloud-Native Architecture | Platform Engineering**
 
+Personal Website: [https://et840520.github.io/Resume/](https://et840520.github.io/Resume/)
+
 
 Backend and platform engineer with experience in microservices architecture, cloud-native systems, DevOps automation, and enterprise platform integration. Strong end-to-end delivery capability spanning requirement clarification, system design, implementation, and deployment. Recently focused on introducing AI-assisted engineering workflows and Spec-Driven Development (SDD) practices to improve collaboration efficiency, specification quality, and delivery speed.
 
@@ -70,3 +72,10 @@ Worked on internal enterprise systems, CRM implementation, and cross-team API in
 #### Development Environment and Performance Optimization
 * Built productivity tools with Windows Forms and optimized database queries through stored procedures, separating application logic from data access logic to improve overall execution efficiency.
 * Took on infrastructure responsibilities and standardized development environments with VirtualBox and Docker, reducing blockers caused by environment inconsistency across the team.
+
+---
+
+## 🎓 Education
+
+### **Ming Chuan University**
+*Bachelor of Science in Information Management*
