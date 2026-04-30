@@ -8,11 +8,11 @@ Backend and platform engineer with experience in microservices architecture, clo
 
 ## Core Skills
 
-* **AI-assisted Engineering:** GitHub Copilot, MCP (Model Context Protocol), Local / Cloud LLM Workflows, Prompt Design, AI Pair Programming, AI-assisted Code Review
-* **Backend & API Development:** Java, Spring Boot, Python, FastAPI, ASP.NET, C#, RESTful API Design
-* **Cloud & DevOps:** Azure, Kubernetes, Docker, Helm, Istio, CI/CD Pipelines, Azure DevOps, Jenkins
-* **Database & Middleware:** MSSQL, PostgreSQL, Redis, Consul
-* **Security & IAM:** Keycloak, OAuth 2.0, OpenID Connect, JWT, SSO Integration
+* **AI-assisted Engineering:** GitHub Copilot, MCP (Model Context Protocol), LLM Workflows (Local / Cloud), Prompt Design, AI Pair Programming, AI-assisted Code Review
+* **Backend & API:** Java, Spring Boot, Python, FastAPI, ASP.NET, C#, RESTful API Design
+* **Cloud-Native & DevOps:** Azure, Kubernetes, Docker, Helm, Istio, CI/CD, Azure DevOps, Jenkins
+* **Databases & Distributed Systems:** MSSQL, PostgreSQL, Redis, Consul
+* **Security & IAM:** Keycloak, OAuth 2.0, OpenID Connect (OIDC), JWT, SSO
 * **Architecture & Engineering Practices:** Microservices, BFF / API Gateway, Spec-Driven Development (SDD), Platform Engineering
 
 ---
