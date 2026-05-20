@@ -11,6 +11,7 @@
 - 效率提升：利用 GitHub Spec-Kit 與 AI 工具鏈(markitdown)，有效解決AI失憶與幻覺(有效減少context長度)，將規格文件產出時間由 4 小時縮短至 30 分鐘（提升 88%）。
 - 品質控管：透過Agent Skills 自動化固定的工作流 ex. ui-contract，將前後端溝通導致的返工率從 25% 降低至 10%。
 - 環境串接：運用 GitHub Copilot 搭配 MCP 串接開發環境(Figma/ k8s/ sql/ rag)，早期context管理方式還不完善的時候，有自己寫過RAG MCP，確保 AI 生成程式碼與實際規格高度一致。
+- AI Code Review 導入：在 Azure AI Foundry 建立 LLM 應用，並透過 Azure Pipeline 執行 Python 腳本組裝 Prompt，將 SA 文件、開發指南與程式碼 Diff 傳送給 LLM 進行分析，再透過 Teams Webhook 回傳審查結果與通知，提升 Code Review 的一致性與風險攔截能力。
 
 ### 2. 電子發票與權限治理
 
